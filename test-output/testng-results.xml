@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T11:41:38 IST" name="Default suite" finished-at="2022-09-16T11:42:00 IST" duration-ms="22631">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T11:41:38 IST" name="Default test" finished-at="2022-09-16T11:42:00 IST" duration-ms="22631">
+      <class name="script.amazontc">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:script.amazontc@2df9b86]" started-at="2022-09-16T11:41:38 IST" name="openapp" finished-at="2022-09-16T11:41:43 IST" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc1()[pri:0, instance:script.amazontc@2df9b86]" started-at="2022-09-16T11:41:43 IST" name="tc1" finished-at="2022-09-16T11:41:59 IST" duration-ms="15888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:script.amazontc@2df9b86]" started-at="2022-09-16T11:41:59 IST" name="closeapp" finished-at="2022-09-16T11:42:00 IST" duration-ms="1804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=amazontc.tc1()[pri:0, instance:script.amazontc@2df9b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- script.amazontc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
